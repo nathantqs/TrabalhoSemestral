@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="trabalho.controller.JogoTela">
+   <children>
+       <ImageView fitHeight="444.0" fitWidth="735.0" layoutX="-16.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="@../../foto/cristiano-ronaldo.jpg" />
+           </image>
+       </ImageView>
+      <Label layoutX="180.0" layoutY="48.0" prefHeight="42.0" prefWidth="278.0" text="QUIZ ZIQUEIRA" textFill="#fa0000">
+         <font>
+            <Font name="Comic Sans MS Bold" size="30.0" />
+         </font>
+      </Label>
+      <Button layoutX="132.0" layoutY="331.0" mnemonicParsing="false" onAction="#desistir" text="Desistir" />
+      <Button layoutX="409.0" layoutY="331.0" mnemonicParsing="false" onAction="#concluido" text="Concluído" />
+      <Button layoutX="279.0" layoutY="331.0" mnemonicParsing="false" onAction="#pular" text="Pular" />
+
+       <fx:define>
+           <ToggleGroup fx:id="colorToggleGroup" />
+           <ToggleGroup fx:id="rbOp" />
+       </fx:define>
+
+      <RadioButton fx:id="rbOp1" layoutX="139.0" layoutY="165.0" textFill="RED">
+       <toggleGroup>
+           <ToggleGroup fx:id="colorToggleGroup" />
+       </toggleGroup></RadioButton>
+      <RadioButton fx:id="rbOp2" layoutX="139.0" layoutY="192.0" textFill="RED" toggleGroup="$colorToggleGroup" />
+      <RadioButton fx:id="rbOp3" layoutX="139.0" layoutY="216.0" textFill="RED" toggleGroup="$colorToggleGroup" />
+      <RadioButton fx:id="rbOp4" layoutX="139.0" layoutY="240.0" textFill="RED" toggleGroup="$colorToggleGroup" />
+
+      <Label fx:id="lbPerguntas" layoutX="132.0" layoutY="90.0" prefHeight="71.0" prefWidth="439.0" textFill="RED" wrapText="true" />
+   </children>
+</AnchorPane>

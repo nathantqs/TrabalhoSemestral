@@ -1,0 +1,68 @@
+11
+4
+A)Qual a capital do Azerbaijão?
+1) Madrid
+2) São Paulo
+3) Baku
+4) Cairo
+3
+B)Qual o país com a maior população do mundo?
+1) Japão
+2) Brasil
+3) EUA
+4) China
+4
+C)Em qual continente se localiza o deserto do Saara?
+1) América
+2) Europa
+3) África
+4) Oceania
+3
+D)Qual desses acidentes geográficos não foi diretamente originado pela ação das placas tectônicas?
+1) Cordilheira dos Andes
+2) Grand Canyon
+3) Serra da Mantiqueira
+4) Monte Everest
+2
+E)Em quais tipos de rochas são encontradas reservas de petróleo, gás natural e carvão mineral?
+1) Metamórficas
+2) Intrusivas
+3) Plutônicas
+4) Sedimentares
+4
+F)Qual desses não é ilha?
+1) Madagascar
+2) Bermudas
+3) Barbados
+4) Libia
+4
+G)Qual desses países está presente em dois continentes?
+1) Turquia
+2) México
+3) Austrália
+4) Nova Zelândia
+1
+H)Qual a moeda do País de Gales?
+1) Euro
+2) Dólar Galês
+3) Bales
+4) Libra Esterlina
+4
+I)Qual desses não é um país?
+1) Abu Dhabi
+2) Singapura
+3) Mõnaco
+4) Tunísia
+1
+J)Qual a montanha mais alta do Brasil?
+1) Monte Fugi
+2) Serra do Mar
+3) Pico da Neblina
+4) Morro do Couto
+3
+H)Quem foi o lanterna do campeonato carioca de 1933?
+1) Flamengo
+2) Botafogo
+3) Fluminense
+4) Vasco
+1
